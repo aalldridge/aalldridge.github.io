@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg>
+<svg xmlns="http://www.w3.org/2000/svg" height="600" width="1800">
+	<defs>
+	  <pattern id="dots" width="15" height="15" patternUnits="userSpaceOnUse">
+	    <circle cx="10" cy="10" r="3" fill="#eaeaea" /> 
+	  </pattern>
+	</defs>
+	<rect x="0" y="0" width="1800" height="600"
+		stroke= "#fffff" stroke-width="2" fill="url(#dots)" />
+	<polygon points="0,100 0,200 200,0 100,0 " fill="#fdfdfd" stroke="#fdfdfd" />
+	<polygon points="100,0 100,100 900,400 900,300 " fill="#fdfdfd" stroke="#fdfdfd" />
+	<polygon points="900,400 900,300 1200,0 1200,100" fill="#fdfdfd" stroke="#fdfdfd" />
+	<polygon points="1200,0 1200,100 1800,200 1800,100" fill="#fdfdfd" stroke="#fdfdfd" />
+	<polygon points="900,400 900,300 450,600 600,600" fill="#fdfdfd" stroke="#fdfdfd" />
+	<polygon points="450,0 600,0 200,600 100,600" fill="#fdfdfd" stroke="#fdfdfd" />
+</svg>
