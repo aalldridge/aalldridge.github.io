@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Wintersemester 2010/11: Unitäre Darstellungen reduktiver Lie-Gruppen</title>
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="canonical" href="http://localhost:4000/lectures/2010/10/01/winter-unirep/">
+  <link rel="alternate" type="application/rss+xml" title="Alexander Alldridge" href="/feed.xml">
+  
+  
+  
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript"
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+  
+</head>
+
+
+  <body>
+    <div class="backdrop-upper">
+      <section class="header-backdrop header-backdrop-teaching">
+        <!-- <div class="container"> -->
+          <header class="site-header" role="banner">
+
+  <div class="wrapper">
+
+    <nav class="site-title-nav">
+      <a class="site-title" href="/">Alexander Alldridge</a>
+    </nav>
+
+    <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/cv/">About</a>
+          
+        
+          
+        
+          
+          <a class="page-link" href="/people/">People</a>
+          
+        
+          
+          <a class="page-link" href="/research/">Research</a>
+          
+        
+          
+          <a class="page-link" href="/teaching/">Teaching</a>
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+        <!-- </div> -->
+        &nbsp;
+      </section>
+
+      <div class="container">
+        <main class="page-content" aria-label="Content">
+          <div class="page-content-wrapper">
+            <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Wintersemester 2010/11: Unitäre Darstellungen reduktiver Lie-Gruppen (Universität zu Köln)</h1>
+    <p class="post-meta"><time datetime="2010-09-30T17:00:00-07:00" itemprop="datePublished">Oct 1, 2010</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>
+
+<span>In der Vorlesung werden wir uns mit der Konstruktion (insbesondere irreduzibler) unit&auml;rer Darstellungen reduktiver Liegruppen (wie $\mathrm{U}(n)$, $\mathrm{GL}(n,\mathbb R)$ und $\mathrm{Sp}(2n,\mathbb R)$) befassen. Das Modellbeispiel ist der Satz 
+von Borel-Weil, der zeigt, dass sich im Fall kompakter Liegruppen alle solchen Darstellungen als die holomorphen Schnitte eines Geradenb&uuml;ndels auf einer Fahnenmannigfaltigkeit realisieren lassen. F&uuml;r allgemeine (nicht notwendig kompakte) 
+reduktive Gruppen werden wir das Problem der Konstruktion unit&auml;rer Darstellungen mit Hilfe der Theorie der $(\mathfrak{g},K)$-Moduln algebraisieren und die Borel-Weil-Konstruktion durch die Einf&uuml;hrung der parabolischen und der 
+cohomologischen parabolischen Induktion abstrahieren und verallgemeinern. Schlie&szlig;lich wollen wir unipotente Darstellungen untersuchen. Dies sind besonders `kleine&#39; irreduzible Darstellungen, die mit gew&ouml;hnlicher und cohomologischer 
+Induktion dazu ausreichen sollen, alle irreduziblen unit&auml;ren Darstellungen zu konstruieren. Dieser letzte Teil der Vorlesung wird &Uuml;berblickscharakter haben.</span></p>
+
+<p>
+<span>Die Vorlesung bietet Master- und Diplomstudierenden die M&ouml;glichkeit, vertiefte Kenntnisse im Bereich der Darstellungstheorie von Liegruppen zu erwerben. Zum Selbststudium werden gelegentlich Aufgaben ausgegeben, einen 
+&Uuml;bungsbetrieb wird es aber nicht geben. </span></p>
+
+<p class="c1"><span class="c0">Voraussetzungen: Kenntnisse &uuml;ber Liealgebren und/oder algebraische oder Liegruppen. Die vorausgesetzten 
+Analysis-Kenntnisse gehen nicht wesentlich &uuml;ber den Kanon der Grundvorlesungen hinaus. </span></p>
+
+<p>
+<h4>Skript</h4>
+<div>
+Das Skript ist nur zum internen Gebrauch bestimmt.
+<a href="http://localhost:4000/assets/lectures/2010-unirep/lnws10.pdf">Link zur PDF-Datei</a>
+</div>
+<ul>
+<li>13.10.2010: 1.1.1-1.1.8 (mit Beweis).</li>
+<li>19.10.2010: 1.1.9-1.1.15 (ohne Beweis).</li>
+<li>26.10.2010: Beweis 1.1.15-1.2.7 (ohne Beweis).</li>
+<li>2.11.2010: Vorlesung wg. Tagung auf 9.11.2010, 16 Uhr, verlegt.</li>
+<li>9.11.2010, 10:15 Uhr: Beweis 1.2.7-1.3.6</li>
+<li>9.11.2010, 16 Uhr: 1.3.6-1.3.13 (ohne Beweis).</li>
+<li>16.11.2010: Beweis 1.3.13-1.6.4 (mit Beweis). Beweise f&uuml;r Lemmata 1.6.2 und 1.6.5 werden in der n&auml;chsten Sitzung behandelt.</li>
+<li>23.11.2010: Beweise f&uuml;r Lemmata 1.6.2, 1.6.5.-2.1.6 (ohne Beweis).</li>
+<li>30.11.2010: Beweis 2.1.6-2.2.5.</li>
+<li>7.12.2010: 2.2.6-2.4.5 (ohne Beweis)</li>
+<li>14.12.2010: Beweis 2.4.5-2.6.2 (mit Beweis). Der Beweis von Theorem 2.6.1 wird nachgeliefert.</li>
+<li>21.12.2010: Vorlesung musste wegen Schneegest&ouml;bers und Deutscher Bahn ausfallen. Im Neuen Jahr wird ein Ersatztermin festgelegt.</li>
+<li style="font-weight:bold">Ersatztermin ist Mittwoch, 26.1.2011, um 14 Uhr im H&ouml;saal des MI</li>
+<li>11.1.2011: Beweis 2.6.1-3.2.2</li>
+<li>18.1.2011: 3.2.3-3.3.4</li>
+<li>25.1.2011: 3.3.5-3.5.7</li>
+<li>26.1.2011: 3.5.8-Beweis 3.5.9 (in Abschnitt 3.9)</li>
+<li>Plan 1.2.2011: $(\mathfrak{g},K)$-Moduln, relative Cohomologie und der Beweis von Borel-Weil-Bott (&Uuml;bersichtsvortrag)</li>
+</ul>
+</p>
+<p>
+<h4>Literatur</h4>
+
+<div>Folgende Literatur wurde bislang verwendet, wobei im wesentlichen [Knapp 1988] gefolgt wurde.</div>
+<ul>
+	<li>Dixmier, J.: Enveloping Algebras. North-Holland, Amsterdam 1977</li>
+	<li>Folland, G.B.: A Course in Abstract Harmonic Analysis. CRC Press, Boca Raton 1995</li>
+	<li>Knapp, A.W.: Representation Theory of Semi-Simple Lie Groups. An Overview Based on Examples. 
+Princeton University Press, Princeton 1986</li>
+	<li>Knapp, A.W.: Lie Groups, Lie Algebras, and Cohomology. Princeton University Press, Princeton 
+1988</li>
+</ul>
+Letzte Aktualisierung: 26.1.2011.
+</p>
+
+  </div>
+
+  
+</article>
+
+          </div>
+        </main>
+      </div>
+    </div>
+    
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Alexander Alldridge</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col1">
+        <ul class="contact-list">
+          <li>
+            
+              Alexander Alldridge
+            
+          </li>
+          
+          <li>
+            <a href="mailto:alldridg@gmail.com">alldridg@gmail.com</a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/aalldridge"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">aalldridge</span></a>
+
+          </li>
+          
+          <li>
+            <a href="https://uni-koeln.academia.edu/AlexanderAlldridge">
+              <span class="icon"> <!-- Generated by IcoMoon.io -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32">
+<title>Academiaedu</title>
+<path d="M17.403 27.732c0 0.469-0.003 0.938-0.003 1.41 4.11 0.006 8.219 0 12.329 0.003 0-0.469-0.003-0.938-0.003-1.407-0.826-0.166-1.846-0.399-2.164-1.298-3.156-7.853-6.358-15.691-9.472-23.559-2.276-0.039-4.551-0.024-6.827-0.009 0.424 0.95 0.778 1.931 1.217 2.875-2.666 6.927-5.375 13.842-8.080 20.754-0.306 0.881-1.307 1.077-2.109 1.244 0 0.463-0.003 0.929-0.003 1.395 2.621 0.012 5.241 0.003 7.862 0.006-0.003-0.475-0.003-0.947-0.006-1.419-0.823-0.127-1.767-0.112-2.436-0.681-0.527-0.508-0.294-1.301-0.076-1.898 0.524-1.353 1.020-2.718 1.592-4.052 3.175 0.018 6.346-0.003 9.521 0.009 0.436 1.083 0.872 2.17 1.307 3.256 0.291 0.732 0.554 1.552 0.318 2.339-0.611 1.014-1.937 0.954-2.966 1.032zM10.17 18.578c1.217-3.232 2.506-6.44 3.698-9.681 1.286 3.229 2.581 6.455 3.871 9.681-2.524 0.012-5.045 0.012-7.569 0z"></path>
+</svg>
+ </span>
+              <span class="username">Academia.edu</span>
+            </a>    
+          </li>
+          <li>
+            <a href="https://arxiv.org/a/alldridge_a_1.html">
+              <span class="icon"> <!-- Generated by IcoMoon.io -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32">
+<title>arXiv</title>
+<path d="M13.978 12.624c0 1.112-0.419 2.013-0.937 2.013s-0.937-0.901-0.937-2.013c0-1.112 0.419-2.013 0.937-2.013s0.937 0.901 0.937 2.013zM19.913 12.624c0 1.112-0.419 2.013-0.936 2.013s-0.936-0.901-0.936-2.013c0-1.112 0.419-2.013 0.936-2.013s0.936 0.901 0.936 2.013zM21.483 17.016h-0.992c0 0.521 0.193 0.999 0.507 1.381-0.337 0.846-2.357 1.905-4.99 1.905-2.632 0-4.653-1.059-4.99-1.905 0.313-0.382 0.508-0.86 0.508-1.381h-0.993c0 0.699-0.619 1.267-1.378 1.267v0.993c0.384 0 0.744-0.097 1.065-0.253 0.728 1.223 2.975 2.272 5.788 2.272 2.814 0 5.059-1.050 5.787-2.272 0.322 0.156 0.681 0.253 1.065 0.253v-0.993c-0.759 0-1.378-0.568-1.378-1.267zM29.864 24.857c-0.297-0.552-0.554-0.662-1.036-0.812-0.414-0.125-1.142-0.067-1.77 0.177-0.143 0.056-0.272 0.146-0.409 0.22-0.406 0.218-0.651 0.175-0.96-0.155-0.178-0.191-0.735-0.695-1.5-1.42 1.561-1.858 2.503-4.25 2.503-6.866 0-2.615-0.942-5.008-2.503-6.866 0.765-0.725 1.321-1.227 1.498-1.419 0.309-0.331 0.554-0.373 0.96-0.154 0.136 0.073 0.266 0.163 0.409 0.219 0.626 0.245 1.355 0.303 1.77 0.176 0.481-0.148 0.739-0.259 1.036-0.811 0.182-0.425 0.249-0.801 0.116-1.277-0.133-0.475-0.677-0.779-1.36-0.898-0.548-0.096-0.323-0.185-0.333-0.677-0.013-0.737-0.278-1.316-0.907-1.71-0.476-0.295-1.021-0.318-1.548-0.299-0.725 0.023-1.472 0.382-1.655 0.813-0.218 0.509 0.027 0.837 0.227 1.202 0.258 0.466 0.132 0.932-0.202 1.321-0.361 0.423-1.247 1.333-1.752 1.87-1.791-1.358-4.019-2.174-6.441-2.174-2.423 0-4.651 0.816-6.443 2.175-0.505-0.538-1.391-1.449-1.752-1.872-0.334-0.389-0.459-0.855-0.202-1.322 0.2-0.363 0.444-0.691 0.228-1.2-0.184-0.432-0.931-0.789-1.656-0.813-0.527-0.020-1.073 0.003-1.549 0.299-0.628 0.392-0.893 0.973-0.907 1.708-0.009 0.492 0.217 0.582-0.333 0.678-0.683 0.117-1.226 0.423-1.36 0.897-0.133 0.477-0.066 0.853 0.116 1.277 0.297 0.552 0.555 0.663 1.036 0.812 0.414 0.126 1.143 0.067 1.771-0.176 0.143-0.057 0.272-0.147 0.409-0.219 0.406-0.219 0.65-0.177 0.96 0.153 0.179 0.193 0.735 0.696 1.498 1.42-1.561 1.858-2.503 4.251-2.503 6.866 0 2.616 0.944 5.010 2.503 6.867-0.764 0.725-1.32 1.228-1.498 1.419-0.31 0.33-0.554 0.373-0.96 0.155-0.136-0.074-0.266-0.164-0.409-0.22-0.627-0.244-1.357-0.303-1.771-0.177-0.481 0.15-0.739 0.26-1.036 0.812-0.182 0.425-0.249 0.801-0.116 1.277 0.134 0.474 0.677 0.779 1.36 0.898 0.549 0.096 0.324 0.185 0.333 0.677 0.013 0.737 0.279 1.316 0.907 1.71 0.476 0.295 1.022 0.318 1.549 0.299 0.725-0.022 1.472-0.382 1.656-0.813 0.217-0.508-0.028-0.839-0.228-1.201-0.257-0.465-0.132-0.931 0.202-1.321 0.361-0.422 1.247-1.333 1.752-1.871 1.792 1.359 4.020 2.175 6.443 2.175s4.65-0.816 6.441-2.175c0.505 0.538 1.392 1.449 1.753 1.871 0.334 0.39 0.459 0.856 0.202 1.321-0.201 0.363-0.444 0.693-0.228 1.201 0.184 0.431 0.931 0.791 1.656 0.813 0.527 0.019 1.073-0.004 1.549-0.299 0.628-0.393 0.892-0.973 0.906-1.71 0.010-0.491-0.216-0.581 0.334-0.677 0.682-0.118 1.226-0.423 1.359-0.898 0.134-0.477 0.065-0.852-0.117-1.277zM16.009 26.025c-5.527 0-10.024-4.497-10.024-10.024 0-5.526 4.497-10.023 10.024-10.023 5.525 0 10.023 4.497 10.023 10.023 0 5.527-4.498 10.024-10.023 10.024z"></path>
+</svg>
+ </span>
+              <span class="username">arXiv.org</span>
+            </a>    
+          </li>
+          <li>
+            <a href="http://scholar.google.de/citations?hl=en&user=4GfBEPwAAAAJ">
+              <span class="icon"> <!-- Generated by IcoMoon.io -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32">
+<title>GoogleScholar</title>
+<path d="M25.39 5.329v-1.946l1.412-1.103h-15.285l-9.23 8.023h6.121c-0.011 0.152-0.016 0.289-0.016 0.445 0 1.49 0.516 2.722 1.549 3.706 1.033 0.986 2.305 1.476 3.811 1.476 0.352 0 0.697-0.026 1.032-0.073-0.208 0.465-0.313 0.895-0.313 1.296 0 0.706 0.322 1.46 0.962 2.261-2.804 0.191-4.864 0.696-6.177 1.512-0.753 0.464-1.358 1.051-1.814 1.753-0.457 0.707-0.684 1.466-0.684 2.284 0 0.689 0.147 1.31 0.444 1.863s0.684 1.006 1.166 1.357c0.48 0.355 1.034 0.65 1.659 0.891 0.624 0.239 1.244 0.409 1.862 0.505 0.617 0.096 1.229 0.143 1.837 0.143 0.963 0 1.926-0.124 2.898-0.371 0.969-0.249 1.878-0.618 2.728-1.107 0.848-0.486 1.538-1.15 2.067-1.981 0.528-0.835 0.793-1.773 0.793-2.811 0-0.787-0.161-1.503-0.482-2.154-0.319-0.648-0.71-1.182-1.176-1.597-0.465-0.415-0.929-0.797-1.395-1.141-0.465-0.346-0.858-0.697-1.177-1.059-0.32-0.361-0.481-0.718-0.481-1.071s0.124-0.691 0.373-1.019c0.247-0.329 0.548-0.647 0.901-0.951s0.706-0.641 1.057-1.010c0.352-0.368 0.653-0.845 0.901-1.43 0.249-0.585 0.372-1.247 0.372-1.984 0-0.961-0.182-1.748-0.539-2.381-0.042-0.073-0.087-0.129-0.134-0.216l4.067-3.335v1.223c-0.528 0.066-0.473 0.382-0.473 0.76v9.195c0 0.426 0.348 0.774 0.774 0.774h0.285c0.426 0 0.774-0.348 0.774-0.774v-9.195c0-0.377 0.056-0.692-0.469-0.76zM17.717 21.228c0.082 0.054 0.265 0.199 0.552 0.432 0.289 0.232 0.486 0.407 0.591 0.53 0.103 0.119 0.256 0.298 0.456 0.539 0.201 0.241 0.337 0.451 0.409 0.624 0.071 0.177 0.144 0.39 0.218 0.639 0.070 0.246 0.106 0.499 0.106 0.755 0 1.218-0.469 2.121-1.405 2.706-0.938 0.585-2.056 0.877-3.354 0.877-0.657 0-1.301-0.078-1.934-0.228-0.632-0.151-1.237-0.381-1.814-0.686s-1.042-0.729-1.394-1.272c-0.353-0.546-0.529-1.173-0.529-1.876 0-0.738 0.2-1.379 0.602-1.923 0.4-0.545 0.925-0.957 1.575-1.237 0.648-0.282 1.304-0.482 1.97-0.6 0.665-0.122 1.343-0.183 2.032-0.183 0.319 0 0.567 0.018 0.744 0.050 0.032 0.016 0.217 0.148 0.553 0.398 0.336 0.247 0.545 0.4 0.625 0.456zM17.477 14.040c-0.529 0.633-1.267 0.95-2.212 0.95-0.848 0-1.593-0.341-2.234-1.023-0.643-0.681-1.102-1.453-1.382-2.318-0.281-0.865-0.422-1.714-0.422-2.548 0-0.979 0.257-1.812 0.77-2.499 0.514-0.69 1.251-1.035 2.211-1.035 0.849 0 1.599 0.36 2.247 1.083 0.65 0.721 1.116 1.53 1.395 2.427 0.28 0.896 0.42 1.753 0.42 2.572 0 0.961-0.265 1.759-0.792 2.391z"></path>
+</svg>
+ </span>
+              <span class="username">Google Scholar</span>
+            </a>    
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/alexander-alldridge-5322a9a8/?authType=&authToken=&trk=mp-allpost-aut-name">
+              <span class="icon"> <!-- Generated by IcoMoon.io -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32">
+<title>linkedin</title>
+<path d="M29 0h-26c-1.65 0-3 1.35-3 3v26c0 1.65 1.35 3 3 3h26c1.65 0 3-1.35 3-3v-26c0-1.65-1.35-3-3-3zM12 26h-4v-14h4v14zM10 10c-1.106 0-2-0.894-2-2s0.894-2 2-2c1.106 0 2 0.894 2 2s-0.894 2-2 2zM26 26h-4v-8c0-1.106-0.894-2-2-2s-2 0.894-2 2v8h-4v-14h4v2.481c0.825-1.131 2.087-2.481 3.5-2.481 2.488 0 4.5 2.238 4.5 5v9z"></path>
+</svg>
+ </span>
+              <span class="username">LinkedIn</span>
+            </a>    
+          </li>
+          <li>
+            <a href="https://www.mendeley.com/profiles/alexander-alldridge/">
+              <span class="icon"> <!-- Generated by IcoMoon.io -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32">
+<title>Mendeley</title>
+<path d="M31.99 23.753c-0.153-1.291-0.864-2.239-2.195-2.546-0.298-0.070-0.616-0.073-0.926-0.067-1.209 0.023-1.944-0.548-2.12-1.741-0.078-0.524-0.065-1.063-0.027-1.594 0.040-0.552 0.117-1.111 0.26-1.645 0.152-0.575 0.29-1.141 0.285-1.739-0.024-0.295-0.025-0.595-0.071-0.887-0.287-1.868-1.704-3.347-3.59-3.764-1.825-0.407-3.682 0.353-4.773 1.874-0.423 0.591-0.947 1.127-1.485 1.62-0.735 0.66-1.725 0.676-2.504 0.101-0.616-0.454-1.151-1.010-1.578-1.639-1.445-2.12-4.242-2.714-6.391-1.303-1.713 1.124-2.331 2.941-2.003 4.959 0.093 0.568 0.269 1.119 0.364 1.687 0.135 0.787 0.201 1.584 0.065 2.383-0.153 0.91-0.641 1.452-1.499 1.624-0.226 0.047-0.466 0.045-0.699 0.056-0.201 0.014-0.406 0-0.605 0.024-0.71 0.101-1.262 0.495-1.777 0.964-0.333 0.303-0.536 0.674-0.624 1.103-0.053 0.262-0.091 0.528-0.094 0.789-0.009 0.863 0.133 1.685 0.749 2.347 0.775 0.834 1.721 1.234 2.856 1.022 1.701-0.314 2.774-1.962 2.391-3.654-0.096-0.412-0.281-0.798-0.407-1.202-0.273-0.875-0.153-1.666 0.5-2.342 0.326-0.338 0.725-0.573 1.157-0.744 1.012-0.404 2.067-0.481 3.136-0.343 0.691 0.089 1.346 0.296 1.932 0.691 1.069 0.716 1.266 1.885 0.694 2.936-0.739 1.36-0.413 3.025 0.816 3.976 0.794 0.613 1.7 0.774 2.673 0.68 2.303-0.221 3.669-2.664 2.503-4.718-0.488-0.859-0.386-1.889 0.391-2.609 0.326-0.303 0.706-0.512 1.119-0.667 0.965-0.362 1.963-0.423 2.976-0.289 0.752 0.101 1.47 0.322 2.097 0.774 0.744 0.54 1.117 1.258 0.966 2.18-0.056 0.348-0.178 0.687-0.308 1.017-0.242 0.601-0.325 1.219-0.221 1.859 0.229 1.405 1.413 2.457 2.859 2.509 1.293 0.045 2.705-0.836 3.014-2.25 0.105-0.472 0.151-0.948 0.093-1.429zM16.023 21.052c-1.936 0-3.156-1.584-3.15-3.155 0.005-1.731 1.418-3.118 3.167-3.114 1.732 0.002 3.138 1.406 3.133 3.128-0.007 1.565-1.22 3.14-3.15 3.14z"></path>
+</svg>
+ </span>
+              <span class="username">Mendeley</span>
+            </a>    
+          </li>
+          <li>
+            <a href="http://orcid.org/0000-0001-6331-1672">
+              <span class="icon"> <!-- Generated by IcoMoon.io -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32">
+<title>Orcid</title>
+<path d="M20.468 12.601c-0.394-0.184-0.767-0.308-1.121-0.366-0.352-0.061-0.917-0.089-1.699-0.089h-2.031v8.451h2.082c0.812 0 1.443-0.056 1.893-0.167s0.826-0.25 1.126-0.422c0.301-0.17 0.576-0.38 0.827-0.63 0.802-0.814 1.203-1.841 1.203-3.083 0-1.22-0.412-2.216-1.236-2.987-0.304-0.286-0.654-0.523-1.045-0.708zM16.008 2.28c-7.579 0-13.721 6.144-13.721 13.721s6.142 13.721 13.721 13.721 13.721-6.144 13.721-13.721-6.142-13.721-13.721-13.721zM11.452 22.060h-1.626v-11.362h1.626v11.362zM10.638 9.511c-0.616 0-1.118-0.499-1.118-1.118 0-0.615 0.501-1.117 1.118-1.117 0.619 0 1.119 0.501 1.119 1.117-0.001 0.621-0.501 1.118-1.119 1.118zM23.993 18.562c-0.293 0.694-0.71 1.305-1.253 1.831-0.552 0.544-1.195 0.951-1.928 1.228-0.429 0.167-0.821 0.28-1.179 0.338-0.359 0.056-1.042 0.083-2.051 0.083h-3.594v-11.345h3.83c1.547 0 2.768 0.23 3.669 0.694 0.9 0.463 1.614 1.147 2.146 2.046 0.532 0.9 0.798 1.882 0.798 2.943 0.001 0.762-0.148 1.489-0.439 2.182z"></path>
+</svg>
+ </span>
+              <span class="username">ORCID</span>
+            </a>    
+          </li>
+          <li>
+            <a href="https://www.researchgate.net/profile/Alexander_Alldridge/">
+              <span class="icon"> <!-- Generated by IcoMoon.io -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32">
+<title>ResearchGate</title>
+<path d="M18.675 27.069c-1.469-1.599-3.436-4.167-5.072-7.070 2.702-0.632 4.703-3.169 4.703-5.704 0-3.736-2.902-5.47-6.706-5.47-1.966 0-3.535 0.099-5 0.099-1.337 0-2.672 0-3.504-0.032v0.968l1.266 0.232c0.871 0.168 1.367 0.565 1.367 2.635v13.142c0 2.069-0.496 2.469-1.367 2.634l-1.266 0.237v0.965c0.9-0.032 2.468-0.098 4.037-0.098 1.501 0 3.436 0.066 4.27 0.098v-0.965l-1.735-0.237c-0.9-0.131-1.369-0.565-1.369-2.634v-5.57c0.801 0.067 1.501 0.067 2.571 0.067 2.034 3.635 3.969 6.371 5.068 7.638 1.003 1.203 2.536 1.969 4.471 1.969 0.566 0 1.166-0.099 1.532-0.268v-0.865c-1.2 0-2.401-0.835-3.265-1.77zM10.701 18.864c-1.135 0-1.632-0.030-2.402-0.103v-8.369c0.769-0.067 1.801-0.067 2.702-0.067 2.804 0 4.47 1.47 4.47 4.136 0 2.635-1.8 4.403-4.77 4.403zM20.883 10.445c-0.034-0.175-0.064-0.38-0.090-0.615-0.028-0.238-0.046-0.517-0.057-0.846-0.011-0.327-0.016-0.727-0.016-1.185 0-0.46 0.004-0.854 0.016-1.183 0.011-0.329 0.029-0.612 0.057-0.848 0.027-0.235 0.057-0.44 0.090-0.615 0.032-0.176 0.075-0.344 0.13-0.508 0.287-0.868 0.757-1.52 1.415-1.958 0.657-0.438 1.462-0.658 2.417-0.658 0.491 0 0.937 0.057 1.332 0.173 0.391 0.115 0.741 0.274 1.051 0.477 0.305 0.201 0.568 0.438 0.786 0.706 0.223 0.269 0.403 0.556 0.544 0.864 0.055 0.098 0.039 0.176-0.048 0.231l-1.214 0.499c-0.103 0.055-0.175 0.027-0.232-0.082-0.272-0.505-0.505-0.836-0.887-1.077-0.386-0.24-0.744-0.354-1.332-0.354-0.64 0-0.926 0.127-1.326 0.414-0.398 0.281-0.689 0.635-0.861 1.175-0.035 0.097-0.066 0.218-0.103 0.36-0.030 0.144-0.055 0.321-0.070 0.527s-0.030 0.462-0.044 0.764c-0.009 0.302-0.013 0.668-0.013 1.092 0 0.426 0.004 0.793 0.013 1.094 0.013 0.3 0.028 0.556 0.044 0.763 0.016 0.209 0.040 0.384 0.070 0.529 0.037 0.14 0.068 0.26 0.103 0.358 0.172 0.537 0.418 0.831 0.779 1.066 0.357 0.239 0.768 0.411 1.408 0.411 0.568 0 1.089-0.162 1.428-0.409 0.336-0.247 0.615-0.573 0.74-1.018 0.055-0.188 0.125-0.421 0.173-0.707 0.044-0.286 0.044-0.588 0.044-1.006 0-0.066-0.037-0.1-0.098-0.1h-1.944c-0.109 0-0.163-0.054-0.163-0.163v-1.114c0-0.111 0.054-0.164 0.163-0.164h3.568c0.112 0 0.164 0.054 0.164 0.164v0.952c0 0.505 0 0.973-0.052 1.406-0.050 0.433-0.118 0.808-0.204 1.082-0.272 0.857-0.705 1.466-1.367 1.921-0.664 0.458-1.521 0.705-2.451 0.705-0.956 0-1.761-0.22-2.417-0.657-0.658-0.442-1.128-1.091-1.415-1.959-0.055-0.164-0.097-0.333-0.13-0.509z"></path>
+</svg>
+ </span>
+              <span class="username">ResearchGate</span>
+            </a>    
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col3">
+        <p>I am a mathematician and visiting scholar at UC Berkeley. My interests are in geometry, harmonic analysis, and representation theory of Lie (super)groups and homogeneous (super)spaces, as well as in C*-algebras and non-commutative geometry. This research has applications to condensed matter physics, e.g. disordered wires and topological insulators/superconductors. 
+</p>
+      </div>
+
+      <div class="footer-credits">
+        <p style="font-size: smaller">
+          Site built with <a href="https://jekyllrb.com/">Jekyll</a> and <a href="http://sass-lang.com/">SASS</a>. Icons made by
+          <a href="http://keyamoon.com/" title="Keyamoon">Keyamoon</a> from <a href="http://www.icomoon.io" title="IcoMoon"> www.icomoon.com</a>, licensed by <a href="https://creativecommons.org/licenses/by/4.0/" title="Creative Commons BY 4.0" target="_blank">GPL/CC 4.0 BY</a>, and by <a href="https://jpswalsh.github.io/academicons/" title="James Walsh">James Walsh</a>, licensed by <a href="http://scripts.sil.org/OFL" title="SIL OFL 1.0">SIL OFL 1.0</a>. Images copyright of Alexander Alldridge.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
