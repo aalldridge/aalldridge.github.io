@@ -6,21 +6,40 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>New website</title>
-  <meta name="description" content="So this is my website, hosted on GitHub. At this point, it is rather rudimentary, and doesn’t contain too much content beyond my bibliography. I love how Jek...">
+  <title>Sommersemester 2007: Analysis IV</title>
+  <meta name="description" content="Die Vorlesung ist Bestandteil des Grundstudiums in den Studiengängen Diplom Mathematik und Technomathematik; als Wahlpflichtfach kann sie auch im Rahmen des ...">
 
   <link rel="stylesheet" href="/css/base.css">
-  <link rel="canonical" href="http://localhost:4000/2017/10/06/new-website/">
+  <link rel="canonical" href="http://localhost:4000/lectures/2008/10/01/sommer-ana4/">
   <link rel="alternate" type="application/rss+xml" title="Alexander Alldridge" href="/feed.xml">
   
   
+  
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript"
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
   
 </head>
 
 
   <body>
     <div class="backdrop-upper">
-      <section class="header-backdrop ">
+      <section class="header-backdrop header-backdrop-teaching">
         <!-- <div class="container"> -->
           <header class="site-header" role="banner">
 
@@ -80,12 +99,138 @@
             <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">New website</h1>
-    <p class="post-meta"><time datetime="2017-10-05T22:56:00-07:00" itemprop="datePublished">Oct 6, 2017</time></p>
+    <h1 class="post-title" itemprop="name headline">Sommersemester 2007: Analysis IV (Universität Paderborn)</h1>
+    <p class="post-meta"><time datetime="2008-09-30T17:00:00-07:00" itemprop="datePublished">Oct 1, 2008</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>So this is my website, hosted on GitHub. At this point, it is rather rudimentary, and doesn’t contain too much content beyond my bibliography. I love how Jekyll/Liquid does the formatting automatically, though. Living in the future rocks, as a wise man has said.</p>
+    <p>
+Die Vorlesung ist Bestandteil des Grundstudiums in den Studiengängen Diplom Mathematik und Technomathematik; als Wahlpflichtfach kann sie auch im Rahmen des Mathematikstudiums zur Erlangung des Lehramts an Gymnasien und Gesamtschulen belegt werden.  
+</p>
+
+<p>
+In der Analysis I wird die Integration auf der reellen Zahlengeraden eingef&uuml;hrt; ihre Bedeutung liegt dort vor allem im Auffinden von Stammfunktionen, also in der Lösung der Differentialgleichung $ F'=f$ für vorgegebenes $ f$. 
+
+Nachdem in der Analysis II in die Geometrie endlich-dimensionaler Vektorräume und ihrer Teilmengen eingeführt und in der Analysis III die Theorie der gew&ouml;hnlichen Differentialgleichungen studiert wurde, darf man die Frage stellen, 
+inwiefern die Existenz von Stammfunktionen in einem mehrdimensionalen Kontext vorliegt. 
+
+Die einfache Antwort auf die Frage lautet, dass im allgemeinen nicht von der Existenz ausgegangen werden kann; die interessantere Antwort ist, dass dies von `globalen' Eigenschaften des geometrischen Gebildes abh&auml;ngt, auf dem man die Stammfunktion sucht. Dies f&uuml;hrt auf ein genaueres Studium der mehrdimensionalen Integration und der geometrischen Gebilde, &uuml;ber die man (statt über Intervalle in $\mathbb R$) integriert. 
+</p>
+
+<h4>1. Schritt: (mehrfache) Integrale</h4>
+
+<p>
+Die Variante der mehrdimensionalen Integration, die sich auf Grund ihrer guten Eigenschaften (wie etwa der Vertauschbarkeit mit Limiten unter einfach zu &uuml;berpr&uuml;fenden Voraussetzungen) durchgesetzt hat, ist die Theorie des so genannten Lebesgue-Integrals. Da ein genaueres Studium dieses Integrals einer Vorlesung über Ma&szlig;theorie vorbehalten sein sollte, werden wir einem konzisen Zugang folgen, der von Alfons van Daele vorgeschlagen wurde (siehe Referenzen).
+</p>
+
+<h4>2. Schritt: Geometrie</h4>
+
+<p>
+Nach der Grundlegung der mehrdimensionalen Integration werden wir die geometrischen Gebilde untersuchen, über die wir integrieren m&ouml;chten. Dies sind Teilmengen von $\mathbb R^n$ wie die Kugeloberfl&auml;che (Sph&auml;re) oder die Oberfl&auml;che eines Doughnuts (Torus). Der Sammelbegriff für diese Gebilde ist das etwas antiquierte Wort `Untermannigfaltigkeit'.
+</p>
+
+<h4>3. Schritt: Integrale plus Geometrie</h4>
+
+<p>
+Als dritten Schritt bringen wir Geometrie (Untermannigfaltigkeiten) und Integration (&agrave; la Lebesgue) zusammen: Es stellt sich heraus, dass die nat&uuml;rlichen Integranden im allgemeinen nicht Funktionen, sondern so genannten Formen sind, denn sie erlauben den Beweis einer allgemeinen `Substitutionsregel'. Die Betrachtung dieser Formen hat aber nicht nur mathematisch-theoretische Gr&uuml;nde, sondern auch eine physikalische Motivation, etwa aus der Theorie des Elektromagnetismus. 
+</p>
+
+<script type="math/tex; mode=display">\int_X\kappa=\frac{1}{2}\cdot\gamma_k\cdot\chi(X)</script>
+
+<p>
+Kulminationspunkt der Vorlesung werden die S&auml;tze von Stokes bzw. Gau&szlig; sein, zusammen mit einigen Anwendungen. Einerseits m&ouml;chte ich etwas zu den Anwendungen in der Physik sagen; andererseits m&ouml;chte ich den Satz von Gau&szlig;-Bonnet beweisen. 
+Dieser Satz zeigt eindrucksvoll, wie globale Eigenschaften geometrischer Gebilde sich auf analytische Probleme auswirken. (Davon ist die Nichtexistenz von Stammfunktionen ein Beispiel.)
+</p>
+
+<h4>Literatur</h4>
+
+<p>
+F&uuml;r den Abschnitt über Untermannigfaltigkeiten und Integration auf ihnen werde ich auf das Analysis III-Buch von Ottmar Loos zur&uuml;ckgreifen, das frei im Internet verf&uuml;gbar ist. Empfehlenswert ist als Begleiter zur Vorlesung das Analysis III-Buch von Otto Forster, welches in der Bilbliothek vorhanden ist. F&uuml;r den Satz von Gau&szlig;-Bonnet werde ich das Buch von Victor Guillemin und Sidney Pollack benutzen, dessen eigenlicher Gegenstand aber ein anderer als Integration auf Untermannigfaltigkeiten ist. Als Begleitlekt&uuml;re ist es wohl weniger geeignet, obwohl es ohne Zweifel ein echter Klassiker ist. (Referenzen siehe unten.)
+</p>
+
+<ul>
+<li><b>Forster, O.:</b> Analysis III. Fr. Vieweg &amp; Sohn, Braunschweig 2000</li>
+<li><b>Guillemin, V.; Pollack, S.:</b> Differential Topology. Prentice--Hall, Englewood Cliffs, NJ, 1974</li>
+<li><b>Loos, O.:</b> Analysis III. <a href="http://www.uibk.ac.at/mathematik/loos/A3.pdf">http://www.uibk.ac.at/mathematik/loos/A3.pdf</a></li>
+<li><b>Van Daele, A.:</b> The Lebesgue Integral without Measure Theory. Am. Math. Monthly  97 (1990), no. 10, S. 912-915</li>
+</ul>
+
+<p><a href="/assets/lectures/2007-ana4/lnss07.pdf">&Uuml;berarbeitetes Skript mit &Uuml;bungen</a></p>
+
+<p>Es wurden folgende Inhalte behandelt:</p>
+<ul>
+<li><span style="font-weight:bold">11.7.2007</span> Beweis 3.8.9-3.8.16 (inkl. Beweis der Existenz).</li>
+<li><span style="font-weight:bold">9.7.2007</span> Beweis 3.8.6-3.8.8 (inkl. Beweis).</li>
+<li><span style="font-weight:bold">4.7.2007</span> Beweis 3.7.13-3.8.5.</li>
+<li><span style="font-weight:bold">2.7.2007</span> 3.7.9-3.7.13 (Formulierung).</li>
+<li><span style="font-weight:bold">27.6.2007</span> Beweis 2.4.2-3.7.8.</li>
+<li><span style="font-weight:bold">25.6.2007</span> 3.5.12-Beweis 3.6.2.</li>
+<li><span style="font-weight:bold">21.6.2007</span> 3.5.1-3.5.11.</li>
+<li><span style="font-weight:bold">18.6.2007</span> 3.4.1-3.4.5 (inkl. Beweis).</li>
+<li><span style="font-weight:bold">13.6.2007</span> 3.3.10-3.3.21.</li>
+<li><span style="font-weight:bold">11.6.2007</span> 3.3.4-3.3.9 (inkl. Beweis).</li>
+<li><span style="font-weight:bold">6.6.2007</span> 3.2.1-3.3.3.</li>
+<li><span style="font-weight:bold">4.6.2007</span> Beweis 3.1.14-3.1.17 (inkl. Beweis).</li>
+<li><span style="font-weight:bold">30.5.2007</span> 2.3.4-3.1.16 (inkl. Beweisidee).</li>
+<li><span style="font-weight:bold">23.5.2007</span> 2.2.11-2.3.11.</li>
+<li><span style="font-weight:bold">21.5.2007</span> 2.2.9.</li>
+<li><span style="font-weight:bold">16.5.2007</span> 2.2.1 (Beweis (iii) $\Rightarrow$ (i))-2.2.8.</li>
+<li><span style="font-weight:bold">14.5.2007</span> 2.2.1 (inkl. Beweis (i) $\Rightarrow$ (ii) und (ii) $\Rightarrow$ (iii)).</li>
+<li><span style="font-weight:bold">9.5.2007</span> 1.8.5-2.1.5 
+(inklusive Beweis).</li>
+<li><span style="font-weight:bold">7.5.2007</span> 1.8.2-1.8.4.</li>
+<li><span style="font-weight:bold">2.5.2007</span> 1.7.8-1.8.2. (Im 
+Beweis haben wir die Formel f&uuml;r Diffeomorphismen bewiesen, die 
+eine 
+Komponente festhalten, und 
+einen beliebigen Diffeomorphismus lokal als Verkn&uuml;pfung zweier solcher spezieller Diffeomorphismen dargestellt.)</li>
+<li><span style="font-weight:bold">30.4.2007</span> 1.7.6-1.7.7 (inklusive Beweis 1.7.2).</li>
+<li><span style="font-weight:bold">25.4.2007</span> 1.6.7-1.7.5 (inklusive Beweis).</li>
+<li><span style="font-weight:bold">23.4.2007</span> 1.6.3-1.6.6 (inklusive Beweis 1.6.5).</li>
+<li><span style="font-weight:bold">18.4.2007</span> 1.4.1-1.6.2 (inklusive Beweis).</li>
+<li><span style="font-weight:bold">16.4.2007</span> 1.3.6-1.4.1.</li>
+<li><span style="font-weight:bold">11.4.2007</span> 1.1.12-1.3.6 (Formulierung des Satzes).</li>
+<li><span style="font-weight:bold">4.4.2007</span> 1.1.3-1.1.12 (inklusive Beweis (i)).</li> 
+<li><span style="font-weight:bold">2.4.2007</span> Einleitung, 
+1.1.1-1.1.3 (Formulierung des Satzes). </li>
+</ul>
+
+<h4>Formalit&auml;ten</h4>
+
+<p><span style="font-weight:bold;color:red">Aktuelles:</span></p>
+
+<ul>
+<li><span style="font-weight:bold">Klausur:</span> Freitag, 20.7.2007, 9-12 Uhr, in Raum D1.312.</li>
+<li>Ab Montag, 14.5.2007, beginnt die Montagsvorlesung um 9:05 Uhr.</li>
+<li><span style="font-weight:bold">Terminverschiebungen:</span> Am 
+Karfreitag (6.4.) f&auml;llt die &Uuml;bung aus, Ausweichtermin: Do, 12.4.2007, 16-18 Uhr (Raum D1.303). Die Ostermontags-VL vom 9.4. wird auf 8:15-9:00 Uhr am Mittwoch, 11.4., verlegt (Raum E2.304). </li>
+</ul>
+
+<p>Weitere Informationen zu dieser Vorlesung:</p>
+
+<ul>
+<li>&Uuml;bungsbl&auml;tter und Musterl&ouml;sungen gibt es über das <a href="https://studinfo.upb.de/cgi-bin/go?c=ana4_2007ss">Studinfo-System</a>.</li>
+<li><span style="font-weight:bold">Vorlesungstermine:</span> Mo, 9-10 Uhr, D1; Mi, 9-11 Uhr, E2.304.</li>
+<li><span style="font-weight:bold">&Uuml;bungszeiten:</span> Fr, 11-13 Uhr, E2.304.</li>
+<li>Die <span style="font-weight:bold">Scheinkriterien</span>: Bestehen einer Klausur. W&ouml;chentlich werden je zwei &Uuml;bungsaufgaben f&uuml;r das Tutorium vorbereitet und dort vorgerechnet. Zus&auml;tzlich gibt es eine Pr&auml;senzaufgabe in der &Uuml;bung. Beides ist fakultativ, de facto f&uuml;r das Verst&auml;ndnis notwendig und wird bei entsprechender Qualit&auml;t durch Bonuspunkte f&uuml;r die Klausur honoriert.	</li>
+</ul>
+
+<h4>Termine:</h4>
+<ul>
+<li>Die <span style="font-weight:bold">Vorlesungszeit</span> f&uuml;r das Sommersemester 2007 ist der Zeitraum vom 2.4.2007-13.7.2007.</li>
+<li><span style="font-weight:bold">Feiertage</span> in diesem Zeitraum sind: Fr, 6.4. (Karfreitag), Mo, 9.4. (Ostermontag), Di, 1.5. (Maifeiertag), Do, 17.5. (Christi Himmelfahrt), Mo, 28.5. (Pfingstmontag) sowie Do, 7.6. (Fronleichnam).</li>
+</ul>
+
+<p>Die <b>Anmeldung zum &Uuml;bungsbetrieb</b> erfolgt &uuml;ber das <a href="https://studinfo.upb.de/cgi-bin/go?c=ana3_2006ws">StudInfo-System</a>.</p>
+
+<h4>Aktuelles:</h4>
+
+<ul>
+<li>Die <span style="font-weight:bold">Klausur</span> findet am Freitag, 2.2.2007, von 14-17 Uhr in den H&ouml;rs&auml;len P5.2.03 und P7.2.03 statt. <span style="font-weight:bold">Anmeldung und Sitzzuteilung</span> erfolgt &uuml;ber das <a href="https://studinfo.upb.de/cgi-bin/go?c=ana3_2006ws">StudInfo-System</a>.</li>
+<li>Die Vorlesung findet ab sofort wieder im &uuml;blichen Turnus statt: 1 Stunde montags, 2 Stunden dienstags.</li>
+<li><span style="font-weight:bold">Raum&auml;nderung:</span> Ab Mittwoch, den 22.11.2006, findet die Mittwochsübung in <span style="font-weight:bold">H&ouml;rsaal H4</span> statt.</li>
+</ul>
+
 
   </div>
 
